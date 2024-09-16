@@ -1,0 +1,45 @@
+*{
+    font-family: 'Poopins ,sans-serif';
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Html/LoginForm2/the-fog-4909513_640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.loginform{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(214, 203, 203);
+    min-width: 30vw;
+    min-height: 40vh;
+}
+h2{
+    text-transform: uppercase;
+}
+.tbox{
+    border: none;
+    outline: none;
+    color:black;
+    padding: 3px;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-image: url("/Html/LoginForm2/the-fog-4909513_640.jpg");
+    color:whitesmoke;
+    cursor: pointer;
+}
